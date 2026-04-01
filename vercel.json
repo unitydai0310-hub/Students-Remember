@@ -1,11 +1,4 @@
 {
   "buildCommand": "pnpm install && pnpm run build",
-  "outputDirectory": "dist",
-  "framework": "other",
-  "rewrites": [
-    {
-      "source": "/api/trpc/:path*",
-      "destination": "/api/trpc/:path*"
-    }
-  ]
+  "outputDirectory": "dist"
 }
